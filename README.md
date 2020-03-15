@@ -60,6 +60,9 @@ var_dump($holger->ip->status());
 
 ## History
 
+### 0.7
+Add powerline module to fetch the power consumption, which is measured by a powerline adapter, that has a outlet.
+
 ### 0.6
 Add fetching of mesh list and add call feature using call assistance.
 

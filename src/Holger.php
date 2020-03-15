@@ -6,6 +6,7 @@ use Holger\Modules\AnsweringMachine;
 use Holger\Modules\CallList;
 use Holger\Modules\DECTInfo;
 use Holger\Modules\DeviceInfo;
+use Holger\Modules\Powerline;
 use Holger\Modules\Hosts;
 use Holger\Modules\Network;
 use Holger\Modules\PackageCounter;
@@ -28,6 +29,7 @@ use Holger\Modules\WANStats;
  * @property Phonebook phonebook
  * @property Hosts hosts
  * @property Voip voip
+ * @property Powerline powerline
  */
 class Holger
 {
@@ -46,6 +48,7 @@ class Holger
         'phonebook' => Phonebook::class,
         'hosts' => Hosts::class,
         'voip' => Voip::class,
+        'powerline' => Powerline::class,
     ];
 
     protected $modules = [];
