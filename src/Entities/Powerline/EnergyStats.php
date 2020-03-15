@@ -6,7 +6,6 @@ use BadMethodCallException;
 
 class EnergyStats
 {
-
     public $connectState;
 
     /**
