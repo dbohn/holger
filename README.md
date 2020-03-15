@@ -60,7 +60,7 @@ var_dump($holger->ip->status());
 
 ## History
 
-### 0.7
+### 0.8
 Add powerline module to fetch the power consumption, which is measured by a powerline adapter, that has a outlet.
 
 ### 0.6
