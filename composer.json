@@ -9,10 +9,10 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.1.8",
         "ext-soap": "*",
         "ext-json": "*",
-        "nesbot/carbon": "^1.21",
+        "nesbot/carbon": "^2.32",
         "ext-simplexml": "*",
         "ext-curl": "*"
     },
